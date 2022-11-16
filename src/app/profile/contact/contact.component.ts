@@ -16,11 +16,12 @@ import { environment } from '../../../environments/environment';
   
     constructor(
       private http: HttpClient
+      
     ){}
   
     ngOnInit() {
        }
-       onSubmit(name, subject, email, message) {
+       onSubmit(name: any, subject: any, email: any, message: any) {
           const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
           this.http.post('https://formspree.io/f/xpznzgpq',
             { name: name, subject: subject, replyto: email, message: message },

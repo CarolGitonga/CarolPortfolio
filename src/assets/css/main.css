@@ -4264,7 +4264,7 @@ img {
               transform: rotate(0deg);
     }
     45% {
-      top: 6px;
+      top: 6px; 
       -webkit-transform: rotate(145deg);
               transform: rotate(145deg);
     }

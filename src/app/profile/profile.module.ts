@@ -14,7 +14,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgxSpinnerModule } from 'ngx-spinner';
 
 
-
 @NgModule({
   declarations: [
     ProfileComponent,
@@ -32,8 +31,8 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
-    SnotifyModule,
-    NgxSpinnerModule
+    NgxSpinnerModule,
+    SnotifyModule
   ],
   providers: [
     { provide: 'SnotifyToastConfig', useValue: ToastDefaults},

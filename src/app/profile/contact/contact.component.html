@@ -1,5 +1,5 @@
 <div class="section" id="contact">
-    <div class="cc-contact-information" style="background-image: url('assets/images/contact.jpg');">
+    <div class="cc-contact-information" style="background-image: url('assets/images/pp.jpeg');">
       <div class="container">
         <div class="cc-contact">
           <div class="row">
@@ -17,8 +17,8 @@
                           <div class="col">
                             <div class="input-group">
                               <input class="form-control" type="text" name="name" #name placeholder="Name"
-                                [(ngModel)]="model.name" #name="ngModel"
-                                [ngClass]="{ 'is-invalid': f.submitted && name.invalid }" required />
+                                [(ngModel)]="model.name"
+                                [ngClass]="{ 'is-invalid': f.submitted && name }" required />
                             </div>
                           </div>
                         </div>
@@ -26,8 +26,8 @@
                           <div class="col">
                             <div class="input-container">
                               <input class="form-control" type="text" name="subject" #subject placeholder="Subject"
-                                [(ngModel)]="model.subject" #subject="ngModel"
-                                [ngClass]="{ 'is-invalid': f.submitted && subject.invalid }" required />
+                                [(ngModel)]="model.subject" 
+                                [ngClass]="{ 'is-invalid': f.submitted && subject}" required />
                             </div>
                           </div>
                         </div>
@@ -35,8 +35,8 @@
                           <div class="col">
                             <div class="input-group">
                               <input class="form-control" type="text" name="email"  #email placeholder="E-mail"
-                                [(ngModel)]="model.email" #email="ngModel"
-                                [ngClass]="{ 'is-invalid': f.submitted && email.invalid }"
+                                [(ngModel)]="model.email" 
+                                [ngClass]="{ 'is-invalid': f.submitted && email}"
                                 pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" required />
                             </div>
                           </div>
@@ -45,8 +45,8 @@
                           <div class="col">
                             <div class="form-group">
                               <textarea class="form-control" name="message" #message placeholder="Your Message"
-                                [(ngModel)]="model.message" #message="ngModel"
-                                [ngClass]="{ 'is-invalid': f.submitted && message.invalid }" required></textarea>
+                                [(ngModel)]="model.message" 
+                                [ngClass]="{ 'is-invalid': f.submitted && message}" required></textarea>
                             </div>
                           </div>
                         </div>
@@ -63,11 +63,11 @@
                         <p class="mb-0">
                             <strong>Phone</strong>
                         </p>
-                        <p class="pb-2">+91 8088041006</p>
+                        <p class="pb-2">0723533890</p>
                         <p class="mb-0">
                             <strong>Email</strong>
                         </p>
-                        <p>punithraaj14@gmail.com</p>
+                        <p>carolgitongaofficial@gmail.com</p>
                     </div>
                 </div>
                 </div>
